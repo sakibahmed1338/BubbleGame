@@ -1,0 +1,104 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+}
+
+#main
+{
+    width: 100%;
+    height: 100%;
+    background: rgb(165, 243, 165);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.container
+{
+    width: 80%;
+    height: 90%;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#ptop
+{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(57, 107, 57);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30%;
+    color: #fff;
+}
+
+.elem
+{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.elem h2
+{
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.box
+{
+    padding: 10px 20px;
+    background: #fff;
+    border-radius: 5px;
+    color: #23833e;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+
+/* ================================= game field ========================== */
+
+#pbtm
+{
+    width: 100%;
+    height: calc(100% - 100px);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+ 
+}
+
+.bubble
+{
+    width: 60px;
+    height: 60px;
+    background-color: #2b6a3d;
+    border-radius: 50%;
+    border: none; 
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 700;
+    transition: .1s ease ;
+}
+
+.bubble:hover
+{
+    background-color: #1e4329;
+    cursor: pointer;
+}
